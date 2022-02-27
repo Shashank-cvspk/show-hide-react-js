@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.button {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  color: #dd1264;
+  margin-right: 10px;
+}
+.buttons {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.name {
+  background-color: #fddddb;
+  margin-right: 10px;
+  border-radius: 5px;
+  width: 25%;
+}
+.hide {
+  display: none;
+}
